@@ -296,6 +296,19 @@
             }),
             console.log);
 
+            console.clear();
+
+            _go({
+                1: users[0],
+                3: users[2],
+                5: users[4]
+            },
+            _map(function(user) {
+                return user.name.toLowerCase();
+            }),
+            console.log);
+
+
         </script>
     </body>
 </html>
